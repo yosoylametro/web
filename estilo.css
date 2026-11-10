@@ -47,15 +47,19 @@ footer {
 }
 
 .tinte {
-    color: #ff4fa3;
+    background: #ff4fa3;
     display: inline-block;
+    
 }
 
 .tinte img {
+    
    display: block;
    transition: opacity 0.3s;
+   
 }
 
 .tinte:hover img {
+
    opacity: 0.5;
 }
