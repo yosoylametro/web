@@ -25,7 +25,7 @@ h2 {
 }
 
 nav a {
-    color: #023de0;
+    color: lch(98% 0.35 17.58);
 }
 
 p {
@@ -44,4 +44,18 @@ footer {
 
 .destacado {
   margin: 0;
+}
+
+.tinte {
+    color: #ff4fa3;
+    display: inline-block;
+}
+
+.tinte img {
+   display: block;
+   transition: opacity 0.3s;
+}
+
+.tinte:hover img {
+   opacity: 0.5;
 }
